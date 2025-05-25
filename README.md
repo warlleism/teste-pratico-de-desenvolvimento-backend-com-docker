@@ -64,3 +64,27 @@ $ docker run -p 3000:3000 dikma/dikmadocker
 $ npm run test
 
 ```
+
+## Endpoints
+
+```bash
+
+Em un cenário real utilizaria alguma tecnologia para documentação como Postman ou Swaggeer.
+
+------------------------------------------------------------------------------------------
+
+$ POST /tarefas
+
+$ GET /tarefas
+
+#ou (dados paginados)
+
+$ GET /tarefas?page=1&pageSize=10
+
+$ GET /tarefas/:id
+
+$ PATCH /tarefas/:id
+
+$ DELETE /tarefas/:id
+
+```
