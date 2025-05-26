@@ -65,7 +65,7 @@ describe('TasksRepository', () => {
 
     prismaMock.tasks.update.mockResolvedValue(task);
 
-    const result = await tasksRepository.update(task, 1);
+    const result = await tasksRepository.update(task);
 
     expect(result).toEqual(task);
   });
